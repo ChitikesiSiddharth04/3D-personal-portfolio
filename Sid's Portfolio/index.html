@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.net.min.js"></script>
+</head>
+<body>
+    <div id="vanta-background"></div>
+    <!-- Side Menu -->
+    <div class="side-menu" id="sideMenu">
+        <div class="menu-content">
+            <a href="https://drive.google.com/file/d/1M1sYjNRYJiVuHUsosDipOFMGSXke1L_O/view?usp=sharing" class="download-resume" target="_blank" rel="noopener noreferrer">Download Resume <i class="fas fa-download"></i></a>
+        </div>
+    </div>
+    <div class="menu-toggle" id="menuToggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="top-nav">
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#volunteering">Volunteering</a></li>
+            <li class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="card-container animate-on-scroll">
+            <div class="description">
+                <h1>Hello, I'm Siddharth Chitikesi</h1>
+                <p class="animate-text">A Computer Science undergraduate specializing in Artificial Intelligence and Data Science at Indian Institute of Information Technology Kottayam (IIITK). I'm a passionate developer and creative enthusiast, with interests spanning full-stack development, machine learning, data analysis, modeling, and storytelling through technology and design.</p>
+                <button class="get-in-touch animate-button" id="getInTouchBtn">Let's go! <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <!-- Project Card 1: Interactive Personal Portfolio Website -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="personal online portfolio.jpg" alt="Interactive Personal Portfolio Website">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/ChitikesiSiddharth04/3D-personal-portfolio.git" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Interactive Personal Portfolio Website</h3>
+                    <p>Engineered a modern portfolio website featuring a 3D-reactive background interface with GPU-accelerated WebGL shaders. Implemented scroll-triggered animations, dynamic theming, and responsive layouts with performance-tuned asset loading.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Three.js</span>
+                        <span>Vanta.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Handwritten Text Extractor.jpg" alt="Handwritten Text Extractor">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/ChitikesiSiddharth04/Hand-_written-_text_extractor.git" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Handwritten Text Extractor</h3>
+                    <p>A document analysis tool that extracts handwritten text using image processing and OCR. Automates the workflow for scanned documents and exports results to Excel.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>NumPy</span>
+                        <span>OCR</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Movie Review Sentiment Analysis.jpg" alt="Movie Review Sentiment Analysis">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/ChitikesiSiddharth04/Movie-Review-Analysis.git" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Movie Review Sentiment Analysis</h3>
+                    <p>Built a binary sentiment classifier using the IMDB dataset. Applied preprocessing, vectorization, and classification using a probability-based model.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>NumPy</span>
+                        <span>pandas</span>
+                        <span>scikit-learn</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 4 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Congressional Twitter Network Analysis.jpg" alt="Congressional Twitter Network Analysis">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/ChitikesiSiddharth04/Congressional-Twitter-Network-Analysis.git" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Congressional Twitter Network Analysis</h3>
+                    <p>Performed graph-based analysis on US congressional Twitter activity to identify influence and polarization using centrality metrics and community detection algorithms.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>NetworkX</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 5 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Titanic Survival Prediction Analysis.jpg" alt="Titanic Survival Prediction">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/ChitikesiSiddharth04/titanic_analysis" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Titanic Survival Prediction Analysis</h3>
+                    <p>Explored survival patterns in Titanic dataset using ML models like Logistic Regression, SVM, KNN, and Decision Trees. Includes EDA, feature engineering, and metric evaluation.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Scikit-learn</span>
+                        <span>Seaborn</span>
+                        <span>Matplotlib</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 6 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Job Details Scraping Tool.jpg" alt="Job Details Scraping Tool">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/ChitikesiSiddharth04/Smart-Job-Analysis-with-Python-Web-Scraper-.git" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Job Details Scraping Tool</h3>
+                    <p>Created a job listings scraper that uses anti-bot techniques like rotating user agents and session management. Extracts contact info and job requirements, stores in SQLite DB.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>BeautifulSoup</span>
+                        <span>requests</span>
+                        <span>SQLite</span>
+                        <span>cloudscraper</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 7 -->
+            <!-- Commented out Clone Identification System project
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Clone Identification System in Rubber Plantations.jpg" alt="Clone Identification System">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Clone Identification System in Rubber Plantations</h3>
+                    <p>An AI-based solution to identify and track rubber tree clones for optimized resource allocation. Uses deep learning and computer vision to classify plant traits.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Deep Learning</span>
+                        <span>Computer Vision</span>
+                    </div>
+                </div>
+            </div>
+            -->
+
+            <!-- Project Card 8 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Retail Sales Performance Dashboard.jpg" alt="Retail Sales Performance Dashboard">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/ChitikesiSiddharth04/Blinkit-Retail-Sales-Performance-Dashboard.git" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Retail Sales Performance Dashboard</h3>
+                    <p>Designed a Power BI dashboard for Blinkit's retail sales. Added dynamic filters, KPI visualizations, and performance analytics across regions and categories.</p>
+                    <div class="project-tech">
+                        <span>Power BI</span>
+                        <span>DAX</span>
+                        <span>Excel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="education-container">
+            <!-- Technical Skills -->
+            <div class="education-item">
+                <div class="education-header">
+                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                </div>
+                <div class="education-content">
+                    <div class="skills-grid">
+                        <!-- Programming Languages -->
+                        <div class="skill-item">
+                            <h4><i class="fab fa-python"></i> Python</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fas fa-code"></i> C/C++</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fab fa-java"></i> Java</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fas fa-database"></i> SQL</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fab fa-html5"></i> HTML/CSS</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fab fa-js"></i> JavaScript</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fab fa-r-project"></i> R</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Data Science & Analytics Tools -->
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <h4><i class="fas fa-chart-line"></i> Power BI</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fas fa-file-excel"></i> Excel</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fas fa-chart-bar"></i> Tableau</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks & Libraries -->
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <h4><i class="fas fa-calculator"></i> NumPy</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fas fa-table"></i> Pandas</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fas fa-chart-pie"></i> Matplotlib</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fas fa-eye"></i> OpenCV</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fas fa-brain"></i> TensorFlow</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DevOps & Cloud -->
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <h4><i class="fab fa-git-alt"></i> Git/GitHub</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fab fa-docker"></i> Docker</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h4><i class="fab fa-aws"></i> AWS</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coursework & Knowledge -->
+                    <div class="education-tags">
+                        <span>Machine Learning</span>
+                        <span>Artificial Intelligence</span>
+                        <span>Object-Oriented Programming</span>
+                        <span>Database Management</span>
+                        <span>Data Structures & Algorithms</span>
+                        <span>Cloud Computing</span>
+                        <span>Computer Networks</span>
+                        <span>Operating Systems</span>
+                        <span>Data Science Optimization</span>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="education-tags">
+                        <span>Quick Learner</span>
+                        <span>Leadership</span>
+                        <span>Communication</span>
+                        <span>Problem-solving</span>
+                        <span>Team Player</span>
+                        <span>Analytical Thinking</span>
+                    </div>
+
+                    <!-- Interests -->
+                    <div class="education-tags">
+                        <span>Gym</span>
+                        <span>Modelling</span>
+                        <span>Acting</span>
+                        <span>Dance</span>
+                        <span>Sports</span>
+                        <span>Travelling</span>
+                        <span>Gymnastics</span>
+                        <span>Fashion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-grid">
+            <!-- Education Item 1 -->
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <div class="education-date">Nov 2022 - Present</div>
+                </div>
+                <div class="education-content">
+                    <h4>Indian Institute of Information Technology Kottayam</h4>
+                    <p>Specialization in AI and Data Science</p>
+                    <div class="education-details">
+                        <p>Focused on advanced topics in computer science including:</p>
+                        <ul>
+                            <li>Artificial Intelligence & Machine Learning</li>
+                            <li>Data Science & Analytics</li>
+                            <li>Web Development</li>
+                            <li>Cloud Computing</li>
+                            <li>Database Management</li>
+                        </ul>
+                    </div>
+                    <div class="education-tags">
+                        <span>Computer Science</span>
+                        <span>AI/ML</span>
+                        <span>Data Science</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Item 2 -->
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Credit-Linked Program in Data Science</h3>
+                    <div class="education-date">2023 - Present</div>
+                </div>
+                <div class="education-content">
+                    <h4>Daksh Gurukul, IIT Guwahati</h4>
+                    <p>Advanced Data Science Program</p>
+                    <div class="education-details">
+                        <p>Comprehensive training in:</p>
+                        <ul>
+                            <li>Data Analysis & Visualization</li>
+                            <li>Machine Learning & Deep Learning</li>
+                            <li>Big Data Technologies</li>
+                            <li>Statistical Methods</li>
+                            <li>Data Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="education-tags">
+                        <span>Data Science</span>
+                        <span>Machine Learning</span>
+                        <span>Big Data</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Item 3 -->
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Intermediate</h3>
+                    <div class="education-date">2020 - 2022</div>
+                </div>
+                <div class="education-content">
+                    <h4>Aakash Institute</h4>
+                    <div class="education-details">
+                        <p>Key areas of study:</p>
+                        <ul>
+                            <li>Advanced problem-solving in Mathematics</li>
+                            <li>Physics and Computer Science</li>
+                            <li>Logical reasoning and analytical thinking</li>
+                        </ul>
+                    </div>
+                    <div class="education-tags">
+                        <span>Science</span>
+                        <span>Mathematics</span>
+                        <span>Computer Science</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Item 4 -->
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Class X (ICSE)</h3>
+                    <div class="education-date">2020</div>
+                </div>
+                <div class="education-content">
+                    <h4>Nasr Boys School</h4>
+                    <p>Secondary Education</p>
+                    <div class="education-details">
+                        <p>Key achievements and focus areas:</p>
+                        <ul>
+                            <li>Strong foundation in core subjects</li>
+                            <li>Active participation in school activities</li>
+                        </ul>
+                    </div>
+                    <div class="education-tags">
+                        <span>ICSE</span>
+                        <span>Secondary Education</span>
+                        <span>Core Subjects</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="education-grid">
+            <!-- Experience Item 1 -->
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Python Fullstack Developer Intern</h3>
+                    <div class="education-date">May 2024 - July 2024</div>
+                </div>
+                <div class="education-content">
+                    <h4>Elearn Infotech</h4>
+                    <p>Hyderabad, Telangana</p>
+                    <div class="education-details">
+                        <p>Key achievements and responsibilities:</p>
+                        <ul>
+                            <li>Developed scalable RESTful APIs using Django REST framework and implemented responsive React.js UI components, improving user engagement by 30%</li>
+                            <li>Optimized database queries and implemented Redis caching, reducing load times by 40%</li>
+                            <li>Integrated payment gateway systems, JWT authentication, and built automated testing suite with 85% code coverage</li>
+                        </ul>
+                    </div>
+                    <div class="education-tags">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>React.js</span>
+                        <span>REST API</span>
+                        <span>Redis</span>
+                        <span>JWT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteering Section -->
+    <section id="volunteering">
+        <h2>Leadership & Activities</h2>
+        <div class="education-grid">
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>PR & Outreach Lead</h3>
+                    <div class="education-date">BetaLabs Technical Club, IIIT Kottayam</div>
+                </div>
+                <div class="education-content">
+                    <p>Leading technical initiatives and community outreach programs, organizing workshops and events to promote technical learning and innovation. Successfully managed multiple hackathons and coding competitions, increasing student participation by 40%. Established partnerships with industry leaders for technical workshops and seminars.</p>
+                    <div class="education-tags">
+                        <span>Technical Leadership</span>
+                        <span>Community Building</span>
+                        <span>Event Management</span>
+                        <span>Team Leadership</span>
+                        <span>Public Relations</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Core Member - WildBeats Dance Club</h3>
+                    <div class="education-date">IIIT Kottayam</div>
+                </div>
+                <div class="education-content">
+                    <p>Active participant in cultural activities, contributing to dance performances and cultural events at the institute. Performed in multiple college festivals and cultural shows. Contributed to choreography and helped organize dance workshops for beginners. Part of the team that won first place in the inter-college dance competition.</p>
+                    <div class="education-tags">
+                        <span>Dance</span>
+                        <span>Cultural Activities</span>
+                        <span>Team Collaboration</span>
+                        <span>Performance Arts</span>
+                        <span>Event Coordination</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Core Member - Chitrachaya Photography Club</h3>
+                    <div class="education-date">IIIT Kottayam</div>
+                </div>
+                <div class="education-content">
+                    <p>Contributing to visual storytelling and documentation of campus events through photography and creative media. Organized photography workshops and exhibitions. Captured key moments of college events, technical fests, and cultural programs. Led a team of photographers for college magazine and social media content.</p>
+                    <div class="education-tags">
+                        <span>Photography</span>
+                        <span>Visual Arts</span>
+                        <span>Creative Media</span>
+                        <span>Event Coverage</span>
+                        <span>Content Creation</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Core Member - Fashion Club</h3>
+                    <div class="education-date">IIIT Kottayam</div>
+                </div>
+                <div class="education-content">
+                    <p>Participating in fashion events and shows, contributing to the creative and cultural aspects of campus life. Organized fashion shows and styling workshops. Coordinated with designers and models for college fashion events. Contributed to the club's social media presence and event planning.</p>
+                    <div class="education-tags">
+                        <span>Fashion</span>
+                        <span>Creative Arts</span>
+                        <span>Event Participation</span>
+                        <span>Style & Design</span>
+                        <span>Event Planning</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Technical Event Coordinator</h3>
+                    <div class="education-date">IIIT Kottayam</div>
+                </div>
+                <div class="education-content">
+                    <p>Organized and coordinated multiple technical events, hackathons, and coding competitions. Managed event logistics, participant registration, and judging panels. Successfully conducted workshops on emerging technologies and programming languages.</p>
+                    <div class="education-tags">
+                        <span>Event Management</span>
+                        <span>Technical Events</span>
+                        <span>Workshop Organization</span>
+                        <span>Team Leadership</span>
+                        <span>Logistics Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="https://github.com/ChitikesiSiddharth04" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/siddharth-chitikesi/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:sidduchitikesi@gmail.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <p class="footer-quote">"Turning ideas into reality with code and creativity."</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana</li>
+                    <li><i class="fas fa-phone"></i> +91 9866124975</li>
+                    <li><i class="fas fa-envelope"></i> sidduchitikesi@gmail.com</li>
+                </ul>
+                <div class="achievements">
+                    <h4>Highlights</h4>
+                    <ul>
+                        <li>PR & Outreach Lead – Technical Club at IIIT Kottayam</li>
+                        <li>Core Member – Dance, Photography & Fashion Clubs</li>
+                        <li>Developed 5+ ML/AI-based applications</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Siddharth Chitikesi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+    VANTA.NET({
+        el: "#vanta-background",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x6b46c1,
+        backgroundColor: 0x000000,
+        maxDistance: 19.00,
+        spacing: 17.00
+    });
+    </script>
+</body>
+</html>
