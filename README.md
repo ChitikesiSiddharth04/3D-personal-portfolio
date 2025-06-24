@@ -1,5 +1,7 @@
 # 3D Personal Portfolio Website
 
+`https://3-d-personal-portfolio-nine.vercel.app/`
+
 A modern, interactive, and visually stunning personal portfolio website built with HTML, CSS, and JavaScript. This project showcases your skills, projects, and experience with a 3D-reactive background, smooth animations, and a responsive design.
 
 ## 🚀 Features
@@ -41,7 +43,7 @@ A modern, interactive, and visually stunning personal portfolio website built wi
 1. Go to [https://vercel.com/](https://vercel.com/) and sign up (use your GitHub account for easiest setup).
 2. Click **"New Project"** and import your GitHub repository, or drag-and-drop your project folder.
 3. For a static site, no build command is needed. Just click **Deploy**.
-4. After a few seconds, your site will be live at `https://your-project-name.vercel.app`.
+4. After a few seconds, your site will be live at `https://3-d-personal-portfolio-nine.vercel.app/`.
 5. (Optional) Set up a custom domain in the Vercel dashboard.
 
 ## ✨ Customization
