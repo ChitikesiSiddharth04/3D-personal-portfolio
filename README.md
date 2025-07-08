@@ -16,7 +16,7 @@ A modern, interactive, and visually stunning personal portfolio website built wi
 - **Project Showcases**: Interactive cards with links to GitHub repositories.
 
 ## 📸 Preview
-![Portfolio Preview](personal%20online%20portfolio.jpg)
+![Portfolio Preview]([personal%20online%20portfolio.jpg](https://3-d-personal-portfolio-nine.vercel.app/))
 
 ## 🛠️ Getting Started
 
